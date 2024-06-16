@@ -1,0 +1,348 @@
+body{
+    padding: 40px;
+    background: #fafafa;
+    opacity: 0.8; /* Adjusted opacity for better visibility */
+    font-family: "Montserrat", sans-serif;
+    background-image: url('https://avatars.mds.yandex.net/i?id=79e042e24a9c3bbd39bd373e3b3a527b0246d1ec-10814954-images-thumbs&n=13');
+    background-size: cover; /* Ensures the background image covers the entire element */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
+    background-attachment: fixed; /* Makes the background image fixed when scrolling */
+    width: 100%;
+    height: 100%;
+    
+}
+
+ul {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+ol{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+
+.elem {
+    display: flex; /* Enable flexbox layout */
+    justify-content: center; /* Center items horizontally */
+    align-items: center; /* Center items vertically */
+    text-align: center;
+  
+}
+
+.music{
+    width: 130px;
+    height: 50px;
+    background-color: cadetblue;
+    border-radius: 13px;
+    
+}
+
+.music button{
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 10px  
+     
+}
+
+button{
+    color: rgb(30, 16, 110);
+    background-color: rgba(230, 206, 102, 0.877);
+    box-shadow: 3px 3px 4px blue;
+    text-shadow: 1px 1px 3px blue;
+}
+
+button:hover{
+    width: 45px;
+    height: 45px;
+    transition: 0.3s ease;
+    font-size: 13px;
+}
+
+
+#clock {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    background-color: blueviolet;
+}
+
+
+
+
+
+
+.Wraper{
+    background: #fff;
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.Main-contant{
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 40px;
+    padding-bottom: 80px;
+    box-sizing: border-box;
+}
+
+.sidebar{
+    background: #e0ebfe;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    box-sizing: border-box;
+    width: 370px;
+}
+.seidbar-content{
+    padding: 40px 40px 40px;
+}
+
+
+.Contacts-title{
+    color: black;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+
+.Contacts-type{
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-right: 8px;
+}
+.Contacts-link{
+    color: blue;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+    text-decoration-line: underline;    
+}
+
+.Contacts-item{
+    margin-top: 0;
+    margin-bottom: 4px;
+
+}
+
+
+.Contacts-container{
+    margin-bottom: 40px;
+
+}
+
+
+.Skicls-container{
+    margin-bottom: 40px;
+
+}
+
+.Skicls-title{
+    color: black;
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.Skils-list{
+    padding-left: 16px;
+
+}
+
+.Skils-list li{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.Soft-Skils{
+    color: black;
+    font-size: 22px;
+    font-weight: 700px;
+    line-height: normal;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.Soft-title{
+    padding-left: 16px;
+}
+
+.Soft-title li{
+    color: black;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+
+
+
+.my-profession{
+    color: black;
+    font-size: 14px;
+    font-weight: 700px;
+    line-height: 17px;
+    margin-top: 0;
+}
+
+.my-name{
+    color: black;
+    font-size: 45px;
+    font-weight: 700px;
+    line-height: 55px;
+    margin-top: 0;
+    margin-bottom: 12px;
+
+}
+
+.my-descr{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400px;
+    line-height: 24px;
+}
+
+.my-info{
+    margin-bottom: 40px;
+}
+
+
+.my-projects-title{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom:8px;
+
+}       
+
+.my-projects-item{
+    color: #000;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+.my-projects-list{
+    padding-left: 16px;
+}
+
+.my-projects-list li a {
+   color:  #005fff;
+   font-size: 14px;
+   font-weight: 400;
+   line-height: 24px;
+   text-decoration: underline;
+}
+
+.my-projects-item-tech{
+    color: #595959;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.My-prodects-container{
+    margin-bottom: 40px;
+}
+
+.Work_experience-title{
+    color: #000;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 27px;
+    margin-top: 0;
+    margin-bottom: 8px;
+}
+
+.Work_experience-company{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-top: 0;
+    margin-bottom: 12px;
+}
+
+.company-name{
+    color: #6D9bf5;
+}
+
+.Work_experience-period{
+    color: #a8a8a8;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+    margin-bottom: 8px;
+}
+
+.Work_experience-separato{
+    color: #000;
+}
+
+.Work_experience-duties-list{
+    padding-left: 16px;
+}
+
+.Work_experience-duties-list li{
+    color: #595959a8;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+.Work_experience-container{
+    margin-bottom: 12px;
+}
+
+
+.last{
+    margin-top: 40px;
+    
+}
+
+.last h2{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 22px;
+    color: #000;
+    margin-bottom: 8px;
+}
+
+.last h3{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 16px;
+    color: #6d9bf5;
+    margin-bottom: 8px;
+}
+
+.last h4{
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 8px;    
+}
+
+.last p{
+    font-family: var(--font-family);
+    font-weight: 400;
+    font-size: 12px;
+    color: #a8a8a8;
+}
